@@ -1,18 +1,20 @@
 user = ARGV.first
-prompt = '> '
+userln = ARGV[1]
 
-puts "Hi #{user}, I'm the #{$0} script."
+cursor = '> '
+
+puts "Hi #{user} #{userln}, I'm the #{$0} script."
 puts "I'd like to ask you a few questions."
 puts "Do you like me #{user}?"
-print prompt
+print cursor
 likes = STDIN.gets.chomp()
 
 puts "Where do you live #{user}?"
-print prompt
+print cursor
 lives = STDIN.gets.chomp()
 
 puts "what kind of computer do you have?"
-print prompt
+print cursor
 computer = STDIN.gets.chomp()
 
 puts <<MESSAGE
