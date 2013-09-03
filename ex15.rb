@@ -8,10 +8,10 @@ prompt = "> "
 txt = File.open(filename)
 
 # outout the file name to the cmd line
-puts "here's your file: #{filename}"
+#puts "here's your file: #{filename}"
 
 # output the contents of the file named {filename} by calling the read() function on the variable txt
-puts txt.read()
+#puts txt.read()
 
 # output a string to the cmd line
 puts "I'll also ask you to type it again:" 
